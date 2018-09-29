@@ -6,6 +6,14 @@ import platform
 import datetime
 from color import randomcolor
 from pathlib import Path
+import Pynoe
+import request as rq
+import simplejson as json
+import os
+
+
+api=str(os.eviron.get("RIOK_TOKEN"))
+
 
 
 bot = commands.Bot(command_prefix='')
@@ -198,4 +206,4 @@ async def on_message(message):
             content=float(message.content.replace("euro/lei:",""))
             await bot.send_message(message.author,str(round(default*content,1))+" Lei")
 
-bot.run('NDc5MzEwMzgwMDU4MDE3Nzky.DmMPEg.W0mkUQlDB4C5Jnf-Lan_bsfTa3Y')
+bot.run(str(os.eviron.get("BOT_TOKEN")))
