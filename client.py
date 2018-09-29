@@ -12,7 +12,7 @@ import simplejson as json
 import os
 
 
-api=str(os.eviron.get("RIOK_TOKEN"))
+#api=str(os.eviron.get("RIOT_TOKEN"))
 
 
 
