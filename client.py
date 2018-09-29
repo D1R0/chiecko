@@ -9,6 +9,7 @@ from pathlib import Path
 import Pynoe
 import request as rq
 import simplejson as json
+from champs import champs
 import os
 
 
