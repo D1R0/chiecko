@@ -1,1 +1,1 @@
-eyzalts: nood start.bat
+eyzalts: nood client.py
