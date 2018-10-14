@@ -11,13 +11,14 @@ from pathlib import Path
 #from champs import champs
 import os
 
+BOT_PREFIX = os.environ['prefix']
 token = str(os.eviron("BOT_TOKEN")
 
 #api=str(os.eviron.get("RIOT_TOKEN"))
 
 
 
-client = commands.Bot(command_prefix='')
+client = commands.Bot(command_prefix='BOT_PREFIX')
 citire= open("prefix.txt","r")
 pr=citire.read()
 citire.close()
