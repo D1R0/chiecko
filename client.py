@@ -11,7 +11,7 @@ from pathlib import Path
 #from champs import champs
 import os
 
-prefix = os.environ['BOT_PREFIX']
+prefix = str(os.environ("BOT_PREFIX"])
 token = str(os.eviron("BOT_TOKEN")
 
 #api=str(os.eviron.get("RIOT_TOKEN"))
