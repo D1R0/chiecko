@@ -7,7 +7,7 @@ import datetime
 from color import randomcolor
 from pathlib import Path
 #import requests as rq
-import Pyome
+#import Pyome
 #import simplejson as json
 #from champs import champs
 import os
