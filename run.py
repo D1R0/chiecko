@@ -79,7 +79,7 @@ async def on_message(message):
         await bot.send_message(message.channel, embed=emb)
 
     if message.content == pr+"help":
-        await bot.send_message(message.channel,"Description | Commands \n**Register in Base Data:dividers:** | `"+pr+"reg` /n**View stats:iphone:** | `statsus` \n**Create a field:bar_chart:** | `addfield:[Name]` \n**Remove a field:bar_chart:** | `delfield:[Name]`")
+        await bot.send_message(message.channel,"Description | Commands \n**Register in Base Data:dividers:** | `"+pr+"reg`\n**View stats:iphone:** | `statsus` \n**Create a field:bar_chart:** | `addfield:[Name]` \n**Remove a field:bar_chart:** | `delfield:[Name]` \n**Gathering or decreasing:money_with_wings:** | `add:[The position of the field]/[Value]`")
         embed = discord.Embed(title="Description", description="Commands", colour=0x01DFD7)
         embed.add_field(name="**Register in Base Data:dividers:**", value=pr+"reg", inline=True)
         embed.add_field(name="**View stats:iphone:**", value="'status'", inline=True)
