@@ -17,7 +17,7 @@ token = str(os.eviron("BOT_TOKEN")
 
 
 
-bot = commands.Bot(command_prefix='')
+client = commands.Bot(command_prefix='')
 citire= open("prefix.txt","r")
 pr=citire.read()
 citire.close()
