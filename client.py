@@ -7,12 +7,13 @@ import datetime
 from color import randomcolor
 from pathlib import Path
 #import requests as rq
-import simplejson as json
-from champs import champs
+#import simplejson as json
+#from champs import champs
 import os
 
+token = os.environ['BOT_TOKEN']
 
-api=str(os.eviron.get("RIOT_TOKEN"))
+#api=str(os.eviron.get("RIOT_TOKEN"))
 
 
 
@@ -206,4 +207,4 @@ async def on_message(message):
             content=float(message.content.replace("euro/lei:",""))
             await bot.send_message(message.author,str(round(default*content,1))+" Lei")
 
-bot.run(str(os.eviron.get("BOT_TOKEN")))
+bot.run(token)
