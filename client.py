@@ -6,7 +6,7 @@ import platform
 import datetime
 from color import randomcolor
 from pathlib import Path
-import request as rq
+import requests as rq
 import simplejson as json
 from champs import champs
 import os
