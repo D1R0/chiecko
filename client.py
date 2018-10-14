@@ -12,7 +12,7 @@ from pathlib import Path
 import os
 
 prefix = str(os.environ["BOT_PREFIX"])
-token = str(os.eviron["BOT_TOKEN"])
+token = str(os.environ["BOT_TOKEN"])
 
 #api=str(os.eviron.get("RIOT_TOKEN"))
 
